@@ -1,0 +1,32 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 491999844448
+  starting_time:
+    nanoseconds_since_epoch: 1790905933690133792
+  message_count: 3981
+  topics_with_message_count:
+    - topic_metadata:
+        name: /joint_states
+        type: sensor_msgs/msg/JointState
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 1520
+    - topic_metadata:
+        name: /arm_g3/queue_state
+        type: arm_broker_interfaces_g3/msg/QueueState
+        serialization_format: cdr
+        offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
+      message_count: 2461
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - bag_prioridad2_0.db3
+  files:
+    - path: bag_prioridad2_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1790905933690133792
+      duration:
+        nanoseconds: 491999844448
+      message_count: 3981
